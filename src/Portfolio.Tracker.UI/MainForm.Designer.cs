@@ -40,9 +40,9 @@
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(10, 16);
+            this.label1.Location = new System.Drawing.Point(12, 25);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(90, 14);
+            this.label1.Size = new System.Drawing.Size(116, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Trades in Portfolio";
             // 
@@ -52,10 +52,10 @@
             this.tradeGridView.AllowUserToDeleteRows = false;
             this.tradeGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.tradeGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.tradeGridView.Location = new System.Drawing.Point(10, 32);
+            this.tradeGridView.Location = new System.Drawing.Point(10, 44);
             this.tradeGridView.Name = "tradeGridView";
             this.tradeGridView.ReadOnly = true;
-            this.tradeGridView.Size = new System.Drawing.Size(1067, 168);
+            this.tradeGridView.Size = new System.Drawing.Size(1170, 168);
             this.tradeGridView.TabIndex = 1;
             // 
             // label2
@@ -68,7 +68,7 @@
             // 
             // loadButton
             // 
-            this.loadButton.Location = new System.Drawing.Point(484, 703);
+            this.loadButton.Location = new System.Drawing.Point(540, 703);
             this.loadButton.Name = "loadButton";
             this.loadButton.Size = new System.Drawing.Size(123, 34);
             this.loadButton.TabIndex = 2;
@@ -82,14 +82,14 @@
             this.profitLossGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.profitLossGridView.Location = new System.Drawing.Point(10, 255);
             this.profitLossGridView.Name = "profitLossGridView";
-            this.profitLossGridView.Size = new System.Drawing.Size(1067, 429);
+            this.profitLossGridView.Size = new System.Drawing.Size(1170, 429);
             this.profitLossGridView.TabIndex = 3;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1096, 749);
+            this.ClientSize = new System.Drawing.Size(1192, 749);
             this.Controls.Add(this.profitLossGridView);
             this.Controls.Add(this.loadButton);
             this.Controls.Add(this.tradeGridView);

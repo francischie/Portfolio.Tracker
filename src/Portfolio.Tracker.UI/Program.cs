@@ -33,6 +33,7 @@ namespace Portfolio.Tracker.UI
                 .AddScoped<IPortfolioRepository, PortfolioRepository>()
                 .AddScoped<IStockQuoteService, StockQuoteService>()
                 .AddScoped<MainForm>()
+                .AddHttpClient()
                 .AddMemoryCache()
                 .BuildServiceProvider();
         }

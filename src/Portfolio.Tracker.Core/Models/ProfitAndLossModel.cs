@@ -10,8 +10,13 @@ namespace Portfolio.Tracker.Core.Models
         public int Quantity { get; set; }
         public decimal Price { get; set; }
         public decimal MarketValue { get; set; }
+        public decimal High { get; set; }
+        public decimal Low { get; set; }
+        public decimal Open { get; set; }
+        public int Volume { get; set; }
         public decimal PreviousClose { get; set; }
         public decimal DailyProfitAndLost { get; set; }
         public decimal InceptionProfitAndLost { get; set; }
+
     }
 }

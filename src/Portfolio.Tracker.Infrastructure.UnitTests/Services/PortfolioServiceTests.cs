@@ -48,7 +48,7 @@ namespace Portfolio.Tracker.Infrastructure.UnitTests.Services
         }
         
         [Fact]
-        public async Task  GetAllAsync_Dummy()
+        public async Task  SaveAsync_Test()
         {
             var repository = new PortfolioRepository();
             var list = new List<PortfolioEntity>
