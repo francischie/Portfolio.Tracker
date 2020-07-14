@@ -50,6 +50,8 @@
             // 
             this.tradeGridView.AllowUserToAddRows = false;
             this.tradeGridView.AllowUserToDeleteRows = false;
+            this.tradeGridView.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tradeGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.tradeGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.tradeGridView.Location = new System.Drawing.Point(10, 32);
@@ -68,6 +70,7 @@
             // 
             // loadButton
             // 
+            this.loadButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.loadButton.Location = new System.Drawing.Point(484, 703);
             this.loadButton.Name = "loadButton";
             this.loadButton.Size = new System.Drawing.Size(123, 34);
@@ -78,6 +81,9 @@
             // 
             // profitLossGridView
             // 
+            this.profitLossGridView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.profitLossGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.profitLossGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.profitLossGridView.Location = new System.Drawing.Point(10, 255);
@@ -96,7 +102,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MaximizeBox = false;
             this.Name = "MainForm";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.Text = "Portfolio Tech Stocks";
