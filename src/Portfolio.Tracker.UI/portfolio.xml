@@ -1,0 +1,24 @@
+<ArrayOfPortfolioEntity xmlns="http://schemas.datacontract.org/2004/07/Portfolio.Tracker.Core.Entities"
+                        xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <PortfolioEntity>
+        <Price>85.95</Price>
+        <Quantity>100</Quantity>
+        <Symbol>MSFT</Symbol>
+        <TransactionDate>2018-01-02T00:00:00</TransactionDate>
+        <TransactionType>Buy</TransactionType>
+    </PortfolioEntity>
+    <PortfolioEntity>
+        <Price>1065</Price>
+        <Quantity>50</Quantity>
+        <Symbol>GOOGL</Symbol>
+        <TransactionDate>2018-01-02T00:00:00</TransactionDate>
+        <TransactionType>Buy</TransactionType>
+    </PortfolioEntity>
+    <PortfolioEntity>
+        <Price>87.82</Price>
+        <Quantity>150</Quantity>
+        <Symbol>MSFT</Symbol>
+        <TransactionDate>2018-01-10T00:00:00</TransactionDate>
+        <TransactionType>Buy</TransactionType>
+    </PortfolioEntity>
+</ArrayOfPortfolioEntity>
